@@ -22,8 +22,9 @@ function Perfil(props){
                 { personajes.map( (personaje, indice) =>
                     <li key = { indice }> 
                         { personaje.name }
+                        <img src = {personaje.image} alt  = "foto personaje" />
                     </li>
-                )}
+                ) }
             </ul>
         );
     }else{
