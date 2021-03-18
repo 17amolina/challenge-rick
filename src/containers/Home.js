@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css'
- 
-import AppNav from './AppNav';
+import AppNav from '../components/AppNav';
 
 const Home = () => {
 
