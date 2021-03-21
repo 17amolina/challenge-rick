@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import AppNav from '../components/AppNav'
 import List from '../components/List';
 
 const ListContainer = () => {
@@ -29,13 +28,12 @@ const ListContainer = () => {
             //     ) }
             // </ul>
             <>
-                <AppNav />
                 <List datos= {info} />
             </>
         );
     }else{
         return(
-                        <h1>cargando...</h1>
+                        <p>cargando...</p>
         );
     }
 }

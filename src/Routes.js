@@ -6,11 +6,11 @@ import Dev from './containers/Dev';
 
 const Routes = () => {
     return(
-        <Switch>
-            <Route exact path='/' component={ Home }/>
-            <Route  path='/rick' component={ ListContainer }/>
-            <Route  path='/dev' component={ Dev }/>
-        </Switch>
+            <Switch>
+                <Route exact path='/' component={ Home }/>
+                <Route  path='/rick' component={ ListContainer }/>
+                <Route  path='/dev' component={ Dev }/>
+            </Switch>
     );
 }
 

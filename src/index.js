@@ -5,9 +5,11 @@ import Routes from "./Routes";
 import reportWebVitals from "./reportWebVitals";
 
 import { BrowserRouter } from "react-router-dom";
+import AppNav from './components/AppNav'
 
 ReactDOM.render(
   <BrowserRouter>
+    <AppNav />
     <React.StrictMode>
       <Routes />
     </React.StrictMode>

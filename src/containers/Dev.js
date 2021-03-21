@@ -4,7 +4,6 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
-import AppNav from '../components/AppNav';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -26,7 +25,6 @@ export default function Dev() {
 
     return (
         <>
-            <AppNav />
             <div className={classes.divcenter}>
             <List component="nav" className={classes.root} aria-label="mailbox folders">
                 <ListItem button>
